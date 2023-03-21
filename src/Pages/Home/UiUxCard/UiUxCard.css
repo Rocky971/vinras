@@ -1,0 +1,27 @@
+.ui_wraper:hover {
+    background: #f94d1c;
+    transform: scale(1.1);
+}
+
+.ui_wraper:hover .uiImage {
+    background: white;
+}
+
+.ui_wraper:hover .image_one {
+    display: none;
+    transition: all .5s;
+}
+
+.image_two {
+    display: none;
+    transition: all .5s;
+}
+
+.ui_wraper:hover .uiImage .image_two {
+    display: block;
+    transition: all .5s;
+}
+
+.ui_wraper:hover h4 {
+    color: white;
+}

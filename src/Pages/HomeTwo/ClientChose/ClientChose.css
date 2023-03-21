@@ -1,0 +1,38 @@
+.main_card:hover {
+    background: #f94d1b;
+    transition: .5s;
+}
+
+.main_card:hover .client_red {
+    display: block;
+    transition: .3s;
+}
+
+.main_card:hover .client_white {
+    display: none;
+    transition: .3s;
+}
+
+.card_img {
+    width: 25%;
+    box-shadow: -7px -7px 2px 0px #dbcfcc65;
+    border-radius: 5px 5px 25px 5px;
+    padding: 15px;
+    background: #f94d1b;
+}
+
+.main_card:hover .card_img {
+    background: white;
+}
+
+.client_red {
+    display: none;
+}
+
+.client_text {
+    color: black;
+}
+.main_card:hover .client_text{
+    color: white;
+    transition: .5s;
+}

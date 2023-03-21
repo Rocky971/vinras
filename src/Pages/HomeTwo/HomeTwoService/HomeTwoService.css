@@ -1,0 +1,17 @@
+.homeTwo:hover .first {
+    display: none;
+    transition: .5s;
+}
+
+.homeTwo .first1 {
+    display: none;
+    transition: .5s;
+}
+
+.homeTwo:hover .first1 {
+    display: block;
+    transition: .5s;
+}
+.homeTwo:hover{
+    color: white;
+}
